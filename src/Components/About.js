@@ -34,16 +34,16 @@ class About extends Component {
               
             </div>
             <div className="eight columns main-col">
-              <h2>Bila?</h2>
+              <h2>When?</h2>
 
               <p>7th Oktober 2023 : 11.00AM</p>
 
-              <h2>Tema</h2>
+              <h2>Theme?</h2>
 
               <p>BTS dan Disney Princess</p>
               <div className="row">
                 <div className="columns contact-details">
-                  <h2>Dimana?</h2>
+                  <h2>Where?</h2>
                   <p className="address">
                     <span>Teratak Ayish Al-Hadid</span>
                     <br />
