@@ -4,12 +4,6 @@ import Fade from "react-reveal";
 
 class Header extends Component {
   render() {
-    if (!this.props.data) return null;
-
-    const project = this.props.data.project;
-    const github = this.props.data.github;
-    const name = this.props.data.name;
-    const description = this.props.data.description;
 
     return (
       <header id="home">
@@ -31,26 +25,8 @@ class Header extends Component {
             </li>
 
             <li>
-              <a className="smoothscroll" href="#about">
-                About
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#resume">
-                Resume
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#portfolio">
-                Works
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#contact">
-                Contact
+              <a className="smoothscroll" href="#details">
+                Details
               </a>
             </li>
           </ul>
@@ -59,27 +35,30 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <h1 className="responsive-headline">{name}</h1>
+              <h1 className="responsive-headline">Happy Birthday !!</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>{description}.</h3>
+              <h3>You are invited to join us for a fabulous birthday bash in honor of ….</h3>
+            </Fade>
+            <Fade bottom duration={1200}>
+              <h2 className="name">Ayish. Ahnaa. Arwaa. Areesya.</h2>
             </Fade>
             <hr />
-            <Fade bottom duration={2000}>
+            {/* <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
+                <a className="button btn project-btn">
+                  <i className="fa fa-waze"></i>Project
                 </a>
-                <a href={github} className="button btn github-btn">
+                <a className="button btn github-btn">
                   <i className="fa fa-github"></i>Github
                 </a>
               </ul>
-            </Fade>
+            </Fade> */}
           </div>
         </div>
 
         <p className="scrolldown">
-          <a className="smoothscroll" href="#about">
+          <a className="smoothscroll" href="#details">
             <i className="icon-down-circle"></i>
           </a>
         </p>

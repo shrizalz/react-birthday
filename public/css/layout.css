@@ -61,10 +61,17 @@ header .banner-text h1 {
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
 }
+
+header .banner-text h2 {
+   font: 30px/1.5em 'opensans-bold', sans-serif;
+   color: #e2f13d;
+   letter-spacing: -2px;
+   margin: 0 auto 18px auto;
+}
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
    color: #ddd;
-   margin: 0 auto;
+   margin: 0 auto 18px;
    width: 70%;
 }
 header .banner-text h3 span,
@@ -181,46 +188,47 @@ ul#nav li.current a { color: #fe6928; }
 /* c. About Section
 /* ------------------------------------------------------------------ */
 
-#about {
+#details {
    background: #000524;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #0762f9; }
+#details a, #details a:visited  { color: #fff; }
+#details a:hover, #details a:focus { color: #0762f9; }
 
-#about h2 {
+#details h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
 }
-#about p {
+#details p {
    line-height: 30px;
    color: #ccc;
 }
-#about .profile-pic {
+#details .profile-pic {
    position: relative;
    width: 120px;
    height: 120px;
    border-radius: 100%;
+   margin-left: 20px;
 }
-#about .contact-details { width: 41.66667%; }
-#about .download {
+#details .contact-details { width: 41.66667%; }
+#details .download {
    width: 58.33333%;
    padding-top: 6px;
 }
-#about .main-col { padding-right: 5%; }
-#about .download .button {
+#details .main-col { padding-right: 5%; }
+#details .download .button {
    margin-top: 6px;
    background: #444;
 }
-#about .download .button:hover {
+#details .download .button:hover {
    background: #fff;
    color: #2B2B2B;
 }
-#about .download .button i {
+#details .download .button i {
    margin-right: 15px;
    font-size: 20px;
 }

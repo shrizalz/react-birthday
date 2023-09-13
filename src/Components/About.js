@@ -3,56 +3,71 @@ import Fade from "react-reveal";
 
 class About extends Component {
   render() {
-    if (!this.props.data) return null;
-
-    const name = this.props.data.name;
-    const profilepic = "images/" + this.props.data.image;
-    const bio = this.props.data.bio;
-    const street = this.props.data.address.street;
-    const city = this.props.data.address.city;
-    const state = this.props.data.address.state;
-    const zip = this.props.data.address.zip;
-    const phone = this.props.data.phone;
-    const email = this.props.data.email;
-    const resumeDownload = this.props.data.resumedownload;
 
     return (
-      <section id="about">
+      <section id="details">
         <Fade duration={1000}>
           <div className="row">
-            <div className="three columns">
-              <img
-                className="profile-pic"
-                src={profilepic}
-                alt="Nordic Giant Profile Pic"
-              />
+            <div className="four columns">
+              <div>
+                <img
+                  className="profile-pic"
+                  src={"images/ayish.jpg"}
+                  alt="Nordic Giant Profile Pic"
+                />
+                <img
+                  className="profile-pic"
+                  src={"images/ahnaa.jpg"}
+                  alt="Nordic Giant Profile Pic"
+                />
+                <img
+                  className="profile-pic"
+                  src={"images/arwaa.jpg"}
+                  alt="Nordic Giant Profile Pic"
+                />
+                <img
+                  className="profile-pic"
+                  src={"images/areesya.jpg"}
+                  alt="Nordic Giant Profile Pic"
+                />
+              </div>
+              
             </div>
-            <div className="nine columns main-col">
-              <h2>About Me</h2>
+            <div className="eight columns main-col">
+              <h2>Bila?</h2>
 
-              <p>{bio}</p>
+              <p>7th Oktober 2023 : 11.00AM</p>
+
+              <h2>Tema</h2>
+
+              <p>BTS dan Disney Princess</p>
               <div className="row">
                 <div className="columns contact-details">
-                  <h2>Contact Details</h2>
+                  <h2>Dimana?</h2>
                   <p className="address">
-                    <span>{name}</span>
+                    <span>Teratak Ayish Al-Hadid</span>
                     <br />
                     <span>
-                      {street}
+                      39, Persiaran Bahagia 1/2, Taman Bahagia
                       <br />
-                      {city} {state}, {zip}
+                      Temerloh, Pahang Darul Makmor
                     </span>
                     <br />
-                    <span>{phone}</span>
+                    <span>Auntie Tisya: 0123456789</span>
                     <br />
-                    <span>{email}</span>
+                    <span>Uncle Pokngoh: 012345678</span>
                   </p>
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href={resumeDownload} className="button">
-                      <i className="fa fa-download"></i>Download Resume
-                    </a>
+                  <Fade bottom duration={2000}>
+                    <ul className="social">
+                      <a href="https://goo.gl/maps/4ZoqLPnQbbrTdQny6" className="button btn project-btn" target="_blank" rel="noreferrer">
+                        <i className="fa fa-waze"></i>Open in Maps
+                      </a>
+                      
+                    </ul>
+                  </Fade>
                   </p>
                 </div>
               </div>

@@ -47,15 +47,15 @@
    }
 
 
-   /* About Section
+   /* details Section
    ------------------------------------------------------------------- */
-   #about .profile-pic {
+   #details .profile-pic {
       width: 114px;
       height: 114px;
       margin-left: 12px;
    }
-   #about .contact-details { width: 50%; }
-   #about .download { width: 50%; }
+   #details .contact-details { width: 50%; }
+   #details .download { width: 50%; }
 
    /* Resume Section
    ------------------------------------------------------------------- */
@@ -213,15 +213,15 @@
    header .scrolldown { display: none; }
 
 
-   /* About Section
+   /* details Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
-   #about .download .button {
+   /* #details .profile-pic { display: none; } */
+   #details .download .button {
       width: 100%;
       text-align: center;
       padding: 15px 20px;
    }
-   #about .main-col { padding-right: 30px; }
+   #details .main-col { padding-right: 30px; }
 
 
    /* Resume Section
