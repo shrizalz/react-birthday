@@ -11,22 +11,22 @@ function About() {
               <img
                 className="profile-pic"
                 src={"images/ayish.jpg"}
-                alt="Nordic Giant Profile Pic"
+                alt="ayish"
               />
               <img
                 className="profile-pic"
                 src={"images/ahnaa.jpg"}
-                alt="Nordic Giant Profile Pic"
+                alt="Ahnaa"
               />
               <img
                 className="profile-pic"
                 src={"images/arwaa.jpg"}
-                alt="Nordic Giant Profile Pic"
+                alt="Arwaa"
               />
               <img
                 className="profile-pic"
                 src={"images/areesya.jpg"}
-                alt="Nordic Giant Profile Pic"
+                alt="Areesya"
               />
             </div>
             
