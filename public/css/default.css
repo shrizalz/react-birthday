@@ -802,6 +802,11 @@ properly.
 	text-align: center !important;
 }
 
+.particles-bg-canvas-self{
+   background: rgb(58,0,135);
+background: radial-gradient(circle, rgba(58,0,135,1) 0%, rgba(85,17,129,1) 50%, rgba(3,155,205,1) 100%);
+ }
+
 
 
 

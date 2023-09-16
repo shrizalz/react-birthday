@@ -1,28 +1,20 @@
-import React, { Component } from "react";
+import React, { useRef, useState } from "react";
 import "./App.css";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      foo: "bar",
-      resumeData: {}
-    };
-  }
-
-  render() {
-    return (
+function App() {
+  
+  return (
       <div className="App">
-        <Header data={this.state.resumeData.main} />
-        <About data={this.state.resumeData.main} />
+        <Header />
+        <About />
         {/* 
         <Footer data={this.state.resumeData.main} /> */}
       </div>
     );
-  }
+
 }
 
 export default App;
